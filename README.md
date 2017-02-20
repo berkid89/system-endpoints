@@ -1,3 +1,5 @@
 # system-endpoints
 
-dotnet pack --configuration release
+- dotnet restore
+- dotnet build --configuration release
+- dotnet pack --configuration release
